@@ -84,12 +84,16 @@ UI_NODE.PY:
 - Stores the last 5 velocity commands
 
 Service provided:
-- /get_average_vel
+```
+/get_average_vel
+```
 
 DISTANCE_NODE.PY
 
 - Subscribes to:
-  - /scan (LaserScan)
+  ```
+  /scan (LaserScan)
+  ```
 - Computes:
   - Closest obstacle distance
   - Obstacle direction (left / front / right)
@@ -99,23 +103,14 @@ DISTANCE_NODE.PY
   - Then the robot stops
 
 Topic published:
-- /obstacle_info
+```
+/obstacle_info
+```
 
 Service provided:
-- /set_threshold
-
-Key parameters:
-- dist_limit → minimum safe distance between turtles
-- min_x, max_x, min_y, max_y → movement boundaries
-
-
-UI.CPP:
-
-- Terminal interface that lets the user:
-  - Choose which turtle to control (turtle1 or turtle2)
-  - Enter linear velocity
-  - Enter angular velocity
-  - Each command is applied for 1 second, then the turtle stops.
+```
+/set_threshold
+```
 
 ---
 
