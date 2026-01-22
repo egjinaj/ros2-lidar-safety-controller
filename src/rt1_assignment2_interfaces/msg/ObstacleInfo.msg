@@ -1,0 +1,3 @@
+float32 closest_distance
+string direction
+float32 threshold

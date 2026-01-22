@@ -1,0 +1,4 @@
+float32 threshold
+---
+bool success
+string message
