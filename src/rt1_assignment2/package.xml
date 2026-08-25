@@ -3,7 +3,7 @@
 <package format="3">
   <name>rt1_assignment2</name>
   <version>0.0.0</version>
-  <description>Custom ROS 2 interfaces for LiDAR safety monitoring, runtime configuration, and velocity statistics.</description>
+  <description>ROS 2 Python controller for LiDAR obstacle detection, timed teleoperation, and reactive safety intervention.</description>
   <maintainer email="endrigjinaj49@gmail.com">endri</maintainer>
   <license>MIT</license>
 
