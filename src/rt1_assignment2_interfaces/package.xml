@@ -3,7 +3,7 @@
 <package format="3">
   <name>rt1_assignment2_interfaces</name>
   <version>0.0.0</version>
-  <description>Interfaces for RT1 Assignment 2</description>
+  <description>Custom ROS 2 interfaces for LiDAR safety monitoring, runtime configuration, and velocity statistics.</description>
   <maintainer email="endrigjinaj49@gmail.com">endri</maintainer>
   <license>MIT</license>
 
