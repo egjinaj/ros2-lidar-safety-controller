@@ -16,7 +16,7 @@ setup(
     zip_safe=True,
     maintainer='endri',
     maintainer_email='endrigjinaj49@gmail.com',
-    description='RT1 Assignment 2',
+    description='ROS 2 Python controller for LiDAR obstacle detection and reactive safety intervention.',
     license='MIT',
     entry_points={
     'console_scripts': [
